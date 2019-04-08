@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wlcome to uni.connect</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class"container-fluid">
+<a class="navbar-brand" href="#"><img src="img/unic.png"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse"
+	data-target="#navbarResponsive">
+	<span class="navbar-toggler-icon"></span>
+</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+													</li>
+						<li class="nav-item">
+								<a class="nav-link" href="file:///C:/Users/War%20Machine(SHIVANK)/Desktop/About.html">About</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="#">Team</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="file:///C:/Users/War%20Machine(SHIVANK)/Desktop/login.html#">Log In</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="file:///C:/Users/War%20Machine(SHIVANK)/Desktop/Register.html">Sign Up</a>
+						</li>
+				</ul>
+
+			</div>
+</div>
+</nav>
+
+
+
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<!--<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>-->
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+					<img src="img/cambridge.jpg">
+					<div class="carousel-caption">
+							<h3>Welocme to India's largest platform for sharing notes</h3>
+							<a href= file:///C:/Users/War%20Machine(SHIVANK)/Desktop/Course.html><button type="button" class="btn btn-outLine-light btn-lg">SEARCH COURSES</button></a>
+							<button type="button" class="btn btn-outLine-light btn-lg">UPLOAD YOUR NOTES</button>
+					</div>
+			</div>
+		</div>
+</div>
+
+<!--- Jumbotron -->
+<!--<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p>A web hosting service allows individuals and organizations and make their website accesible via the World Wide Web</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+				<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+		</div>
+	</div>
+</div>-->
+
+
+<!--- Welcome Section -->
+		<div class="container-fluid padding">
+				<div class="row welcome text-center">
+						<div class="col-12">
+								<h1 class="display-4">Built with Ease.</h1>
+						</div>
+						<hr>
+						<div class="col-12">
+								<p class="lead">Welcome to my BootStrap 4 website tutorial ! BootStrap is a free and open sourse front end library with HTML and CSS based designs.</p>
+						</div>
+				</div>
+		</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+		<div class="row text-center padding">
+				<div class="col-xs-12 col-sm-6 col-md-4">
+						<i class="fas fa-arrow-circle-down"></i>
+						<h3>DOWNLOAD</h3>
+						<p>Anytime,anywhere,for free !</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+						<i class="fa fa-star-o"></i>
+						<h3>BOOTSTRAP</h3>
+						<p>Built with the latest version of BOOTSTRAP, BOOTSTRAP4.</p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+						<i class="fab fa-css3"></i>
+						<h3>CSS</h3>
+						<p>Built with the latest version of CSS, CSS3.</p>
+				</div>
+		</div>
+		<hr class="my-4">
+</div>
+
+<!--- Two Column Section -->
+<!--<div class="container-fluid padding">
+	<div class="row padding">
+			<div class="col-lg-6">
+					<h2>If you build  it...</h2>
+					<p>This is some random text and will be displayed once the website is fully designed</p>
+					<br>
+					<a href="#" class="btn btn-primary">Learn more</a>
+			</div>
+				<div class="col-lg-6">
+						<img src="img/desk.png" class="img-fluid">
+				</div>
+	</div>
+</div>-->
+
+<hr class="my-4">
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+			<div id="fixed">
+			</div>
+	</div>
+</figure>
+
+<!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">click for fun</button>
+<div id="emoji" class="collapse">
+	<div class="container-fluid padding">
+			<div class="row text-center">
+					<div class="col-sm-6 col-md-3">
+							<img class="gif" src="img/gif/panda.gif">
+					</div>
+					<div class="col-sm-6 col-md-3">
+							<img class="gif" src="img/gif/poo.gif">
+					</div>
+					<div class="col-sm-6 col-md-3">
+							<img class="gif" src="img/gif/unicorn.gif">
+					</div>
+					<div class="col-sm-6 col-md-3">
+							<img class="gif" src="img/gif/chicken.gif">
+					</div>
+			</div>
+	</div>
+</div>
+<!--- Meet the team -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+				<h1 class="display-4">Meet the Team</h1>
+		</div>
+			<hr>
+	</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+					<img class="card-img-top" src="img/ishank.png">
+					<div class="card-body">
+							<h4 class="card-title">Ishank Nijhawan</h4>
+							<p class="card-text">Ishank contributed in the front end part of uniconnect.com</p>
+							<a href="#" class="btn btn-outline-secondary">See profile</a>
+					</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+					<img class="card-img-top" src="img/shivank.png">
+					<div class="card-body">
+							<h4 class="card-title">Shivank Kapoor</h4>
+							<p class="card-text">Shivank is an open source developer and has a major contribution in the back end.</p>
+							<a href="#" class="btn btn-outline-secondary">See profile</a>
+					</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+					<img class="card-img-top" src="img/shobhit.png">
+					<div class="card-body">
+							<h4 class="card-title">Shobhit Tiwari</h4>
+							<p class="card-text">Shobhit has 2 years experience in back end developing and django.</p>
+							<a href="#" class="btn btn-outline-secondary">See profile</a>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Two Column Section -->
+<!--<div class="container-fluid padding">
+	<div class="row padding">
+			<div class="col-lg-6">
+					<h1>Our Philosophy</h1>
+					<h3>We believe that a student should not have any boundaries of Study, and he should have free access to
+						all the lecture notes, question papers and powerpoint presentations of any University he wants. We at
+						uniconnect have a vision of clearing these borders between the student and the University.</h3>
+
+			</div>
+				<div class="col-lg-6">
+						<img src="img/bg-about.jpg" class="img-fluid">
+				</div>
+	</div>
+	<hr class="my-4">
+</div>-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<!--<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>-->
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+					<img src="img/laptop.jpg">
+					<div class="carousel-caption">
+						<h1>Our Philosophy</h1>
+							<h4>We believe that a student should not have any boundaries of Study, and he should have free access to
+								all the lecture notes, question papers and powerpoint presentations of any University he wants. We at
+								uniconnect have a vision of clearing these borders between the student and the University.</h4>
+					</div>
+			</div>
+		</div>
+</div>
+
+
+
+<!--- Connect -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Connect</h2>
+		</div>
+			<div class="col-12 social padding">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
+	</div>
+</div>
+
+<!--- Footer -->
+	<footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="img/unic.png">
+					<hr class="light">
+					<p>9560-353-354</p>
+					<p>www.uniconnect.com</p>
+					<!--<p>100 Street name</p>
+					<p>City, State, 123456</p>-->
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Support Us</h5>
+					<hr class="light">
+					<p>Rate us</p>
+					<p>Visit us @ Shiv Nadar University</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Developers</h5>
+					<hr class="light">
+					<p>Ishank Nijhawan</p>
+					<p>Shivank Kapoor</p>
+					<p>Shobhit Tiwari</p>
+				</div>
+					<div class="col-12">
+						<hr class="light-100">
+						<h5>&copy; uniconnect.com</h5>
+					</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+ <!--- Check out my Bootstrap 4 Courses! -->
+ <!--<div style="float:left; max-width: 46%; margin: 2%; padding: 10px; border: 10px solid #666;">
+  <a href="http://bit.ly/advanced-bootstrap-course" target="_blank" style="text-decoration: none;"><h1 style="text-align: center; font-size: 1.2rem; font-family: sans-serif; padding: 1rem; color: #1ba892; letter-spacing: .1rem;">Learn Bootstrap 4 By Creating An Advanced Bootstrap Theme</h1></a>
+  <a href="http://bit.ly/advanced-bootstrap-course " target="_blank"><img style="max-width: 100%;"src="https://www.w3newbie.com/wp-content/uploads/nuno-udemy-thumbnail.png"></a>
+  <a href="http://bit.ly/advanced-bootstrap-course" target="_blank" style="text-decoration: none;"><h1 style="text-align: center; font-size: 1.5rem; font-family: sans-serif; padding: 2rem; color: #1ba892; letter-spacing: .1rem;">{  94% OFF Coupon Link:  "NUNO93"  }</h1></a>
+</div>
+
+<div style="float:right; max-width: 46%; margin: 2%; padding: 10px; border: 10px solid #666;">
+  <a href="http://bit.ly/NESTCOURSE93" target="_blank" style="text-decoration: none;"><h1 style="text-align: center; font-size: 1.3rem; font-family: sans-serif; padding: 1rem; color: #674FE3; letter-spacing: .1rem;">Bootstrap 4 Website Build From Scratch In 3 Hours</h1></a>
+  <a href="http://bit.ly/NESTCOURSE93" target="_blank"><img style="max-width: 100%;"src="https://www.w3newbie.com/wp-content/uploads/bootstrap-theme-couse.png"></a>
+  <a href="http://bit.ly/NESTCOURSE93" target="_blank" style="text-decoration: none;"><h1 style="text-align: center; font-size: 1.5rem; font-family: sans-serif; padding: 2rem; color: #674FE3; letter-spacing: .1rem;">{  93% OFF Coupon Link:  "NEST93"  }</h1></a>
+</div>-->
+<!--- Check out my Bootstrap 4 Courses! -->
